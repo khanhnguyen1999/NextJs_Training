@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "mock-server": "json-server --watch ./db.json -p 4001 -d 100"
   },
   "dependencies": {
     "next": "10.0.3",
